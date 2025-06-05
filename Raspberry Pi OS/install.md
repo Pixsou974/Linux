@@ -3,3 +3,6 @@ Mise a jour de la liste des dépots et mise a niveau de la distribution
 ```
 sudo apt update && sudo apt full-upgrade
 ```
+Nom | Prenom | Date de naissance |
+-------|---------|--------- |
+BOYER | Alexandre | 23/01/1985 |
