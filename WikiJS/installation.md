@@ -14,7 +14,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 Pour verifier si Node.js et npm sont bien installés verifié la version en faisant ```node -v``` et ```npm -v``` pour voir apparaitre les versions<br/>
-![verification](node.png)
+![node](https://github.com/user-attachments/assets/e440d720-47f3-4b95-8e12-88ba77742098)
 ## 3. Installer et configurer PostgreSQL
 ```
 # Ajouter le dépôt PostgreSQL officiel
@@ -84,4 +84,3 @@ pm2 save
 # Configurer PM2 pour démarrer au démarrage du système
 pm2 startup
 ```
-![node](https://github.com/user-attachments/assets/e440d720-47f3-4b95-8e12-88ba77742098)
