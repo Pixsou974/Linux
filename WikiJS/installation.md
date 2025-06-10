@@ -14,8 +14,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 Pour verifier si Node.js et npm sont bien installés verifié la version en faisant ```node -v``` et ```npm -v``` pour voir apparaitre les versions<br/>
-### [ajouté capture d'ecran]
-
+![verification](node.png)
 ## 3. Installer et configurer PostgreSQL
 ```
 # Ajouter le dépôt PostgreSQL officiel
@@ -77,7 +76,7 @@ sudo npm install -g pm2
 # Lancer Wiki.js avec PM2
 # Assurez-vous d'être dans le répertoire /var/www/wikijs
 cd /var/www/wikijs
-pm2 start server.js --name wikijs
+pm2 start server --name wikijs
 
 # Sauvegarder la configuration PM2 pour un démarrage automatique au redémarrage
 pm2 save
@@ -85,3 +84,4 @@ pm2 save
 # Configurer PM2 pour démarrer au démarrage du système
 pm2 startup
 ```
+![node](https://github.com/user-attachments/assets/e440d720-47f3-4b95-8e12-88ba77742098)
